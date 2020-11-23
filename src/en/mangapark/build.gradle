@@ -2,12 +2,11 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 ext {
-    appName = 'Tachiyomi: MangaPark'
-    pkgNameSuffix = "en.mangapark"
+    extName = 'MangaPark'
+    pkgNameSuffix = 'en.mangapark'
     extClass = '.MangaPark'
-    extVersionCode = 1
-    extVersionSuffix = 1
-    libVersion = '1.0'
+    extVersionCode = 17
+    libVersion = '1.2'
 }
 
 apply from: "$rootDir/common.gradle"

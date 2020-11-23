@@ -2,17 +2,11 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 ext {
-    appName = 'Tachiyomi: Tapastic'
-    pkgNameSuffix = "en.tapastic"
+    extName = 'Tapas'
+    pkgNameSuffix = 'en.tapastic'
     extClass = '.Tapastic'
-    extVersionCode = 1
-    extVersionSuffix = 1
-    libVersion = '1.0'
-}
-
-dependencies {
-    provided "com.google.code.gson:gson:2.8.0"
-    provided "com.github.salomonbrys.kotson:kotson:2.5.0"
+    extVersionCode = 10
+    libVersion = '1.2'
 }
 
 apply from: "$rootDir/common.gradle"

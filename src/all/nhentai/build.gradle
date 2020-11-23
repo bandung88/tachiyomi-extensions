@@ -2,17 +2,16 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 ext {
-    appName = 'Tachiyomi: nhentai'
-    pkgNameSuffix = "all.nhentai"
-    extClass = '.NHJapanese; .NHEnglish; .NHChinese; .NHSpeechless; .NHCzech; .NHEsperanto; .NHMongolian; .NHSlovak; .NHArabic; .NHUkrainian'
-    extVersionCode = 1
-    extVersionSuffix = 1
-    libVersion = '1.0'
+    extName = 'NHentai'
+    pkgNameSuffix = 'all.nhentai'
+    extClass = '.NHFactory'
+    extVersionCode = 28
+    libVersion = '1.2'
+    containsNsfw = true
 }
 
 dependencies {
-    provided "com.google.code.gson:gson:2.8.0"
-    provided "com.github.salomonbrys.kotson:kotson:2.5.0"
+    implementation project(':lib-ratelimit')
 }
 
 apply from: "$rootDir/common.gradle"

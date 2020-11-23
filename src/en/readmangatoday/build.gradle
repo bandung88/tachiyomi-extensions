@@ -2,11 +2,10 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 ext {
-    appName = 'Tachiyomi: ReadMangaToday'
-    pkgNameSuffix = "en.readmangatoday"
+    extName = 'ReadMangaToday'
+    pkgNameSuffix = 'en.readmangatoday'
     extClass = '.Readmangatoday'
-    extVersionCode = 3
-    extVersionSuffix = 0
+    extVersionCode = 9
     libVersion = '1.2'
 }
 

@@ -2,12 +2,11 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 ext {
-    appName = 'Tachiyomi: IuTruyenTranh'
-    pkgNameSuffix = "vi.iutruyentranh"
-    extClass = '.Iutruyentranh'
-    extVersionCode = 1
-    extVersionSuffix = 1
-    libVersion = '1.0'
+    extName = 'IuTruyenTranh'
+    pkgNameSuffix = 'vi.iutruyentranh'
+    extClass = '.IuTruyenTranh'
+    extVersionCode = 5
+    libVersion = '1.2'
 }
 
 apply from: "$rootDir/common.gradle"

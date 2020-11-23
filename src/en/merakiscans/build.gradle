@@ -2,12 +2,11 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 ext {
-    appName = 'Tachiyomi: MerakiScans'
+    extName = 'MerakiScans'
     pkgNameSuffix = 'en.merakiscans'
     extClass = '.MerakiScans'
-    extVersionCode = 1
-    extVersionSuffix = 1
-    libVersion = '1.0'
+    extVersionCode = 6
+    libVersion = '1.2'
 }
 
 apply from: "$rootDir/common.gradle"
